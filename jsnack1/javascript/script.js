@@ -6,8 +6,6 @@ const guestList = ["Ciro", "Antonio", "Lucia", "Matteo", "Lorenzo", "Valeria"];
 
 const yourName = prompt("Inserisci il tuo nome", "Antonio");
 
-let feedback = "Non sei in lista";
-
 let exit = false;
 
 for (let i = 0; i < guestList.length && exit === false; i++) {
@@ -19,4 +17,8 @@ for (let i = 0; i < guestList.length && exit === false; i++) {
 
 }
 
-console.log(feedback);
+if (exit) {
+    console.log("Sei in lista");
+} else {
+    console.log("Non sei in lista");
+}
