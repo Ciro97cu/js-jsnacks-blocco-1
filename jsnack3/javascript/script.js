@@ -11,6 +11,7 @@ document.querySelector("button").addEventListener("click",
             sumNumber += parseInt(numberInput[i]);
         }
         console.log(sumNumber);
+        document.querySelector("p").innerText = `La somma è ${sumNumber}`;
 
         // let numberInput = document.querySelector("input").value;
         // const arrayOfDigits = Array.from(String(numberInput), Number);
