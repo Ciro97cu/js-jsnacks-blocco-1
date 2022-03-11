@@ -11,7 +11,6 @@ let exit = false;
 for (let i = 0; i < guestList.length && exit === false; i++) {
 
     if (yourName.trim() === guestList[i]) {
-        feedback = "Sei in lista";
         exit = true;
     }
 
