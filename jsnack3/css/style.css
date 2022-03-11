@@ -1,3 +1,15 @@
+body {
+    background-color: black;
+}
+
+h1, h3, p {
+    color: white;
+}
+
+h1 {
+    color: greenyellow;
+}
+
 .container {
     width: 50%;
     margin: 20px auto;
@@ -6,4 +18,18 @@
     align-items: center;
     row-gap: 20px;
     text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: blanchedalmond;
+    border: 3px solid greenyellow;
+}
+
+input {
+    background-color: blanchedalmond;
+    border: 3px solid greenyellow;
+    padding: 5px 0px 5px 5px;
 }
